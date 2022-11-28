@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FastFood</title>
+</head>
+<body>
+{%for i in object_list%}
+    <center><h1>Zakaz klienta</h1></center>
+    <h1>Zakaz klienta: {{i.name}}</h1>
+    <h1>Eda: {{i.choose}}</h1>
+    <h1>Kolichestvo: {{i.quatity_food}}</h1>
+    <h1>Adres: {{i.address}}</h1>
+    <h1>Telefon: {{i.number}}</h1>
+    <h1>Otkuda: {{i.title_fast_food}}</h1>
+{% endfor %}
+</body>
+</html>
