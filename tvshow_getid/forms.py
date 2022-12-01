@@ -1,6 +1,7 @@
 from django import forms
 from . import models
-class FastFoodForm(forms.ModelForm):
+
+class TvShow(forms.ModelForm):
     class Meta:
-        model = models.Order
+        model = models.TvShow
         fields = '__all__'

@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('fastfood', '0001_initial'),
+        ('tvshow_getid', '0001_initial'),
     ]
 
     operations = [
