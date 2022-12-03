@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'book',
     'tvshow_getid',
+    'pars'
 ]
 
 MIDDLEWARE = [
